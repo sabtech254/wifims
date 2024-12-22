@@ -1,9 +1,7 @@
 <?php
- 
+
 /**
- * PHP Mikrotik Billing (https://github.com/sabtech254/wifims/)
- *
- * This script is for updating wifims
+ * PHP Mikrotik Billing 
  **/
 session_start();
 include "config.php";
@@ -14,9 +12,8 @@ if($db_password != null && ($db_pass == null || empty($db_pass))){
 }
 
 if (empty($update_url)) {
-    $update_url = 'https://github.com/sabtech254/wifims/archive/refs/heads/main.zip';
+    $update_url = 'https://github.com/sabtech254/wifims/archive/refs/heads/master.zip';
 }
-
 
 if(isset($_REQUEST['update_url']) && !empty($_REQUEST['update_url'])){
     $update_url = $_REQUEST['update_url'];
@@ -198,7 +195,7 @@ function deleteFolder($path)
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>wifims System Updater</title>
+    <title> Updater</title>
     <link rel="shortcut icon" href="ui/ui/images/logo.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="ui/ui/styles/bootstrap.min.css">
@@ -230,7 +227,7 @@ function deleteFolder($path)
     <div class="container">
         <section class="content-header">
             <h1 class="text-center">
-                Update wifims
+                Update System
             </h1>
         </section>
 
@@ -279,7 +276,7 @@ function deleteFolder($path)
                             <div class="panel panel-success">
                                 <div class="panel-heading">Update Finished</div>
                                 <div class="panel-body">
-                                    wifims has been updated to Version <b><?= $version ?></b>
+                                  The system has been updated to Version <b><?= $version ?></b>
                                 </div>
                             </div>
                             <meta http-equiv="refresh" content="5; ./?_route=dashboard">
@@ -289,7 +286,7 @@ function deleteFolder($path)
             </div>
         </section>
         <footer class="footer text-center">
-            wifims by <a href=" " rel="nofollow noreferrer noopener" target="_blank">Sabtech</a>
+            PHPNuxBill by <a href="#" rel="nofollow noreferrer noopener" target="_blank">Sabtech</a>
         </footer>
     </div>
 </body>
