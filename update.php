@@ -286,7 +286,7 @@ function deleteFolder($path)
             </div>
         </section>
         <footer class="footer text-center">
-            PHPNuxBill by <a href="#" rel="nofollow noreferrer noopener" target="_blank">Sabtech</a>
+            By <a href="#" rel="nofollow noreferrer noopener" target="_blank">Sabtech</a>
         </footer>
     </div>
 </body>
