@@ -49,8 +49,8 @@ if (!extension_loaded('zip')) {
 }
 
 
-$file = pathFixer('system/cache/wifims_Advanced.zip');
-$folder = pathFixer('system/cache/wifims_Advanced-' . basename($update_url, ".zip") . '/');
+$file = pathFixer('system/cache/wifims.zip');
+$folder = pathFixer('system/cache/wifims-' . basename($update_url, ".zip") . '/');
 
 if (empty($step)) {
     $step++;
@@ -289,7 +289,7 @@ function deleteFolder($path)
             </div>
         </section>
         <footer class="footer text-center">
-            wifims by <a href=" " rel="nofollow noreferrer noopener" target="_blank">Shabran Kweyu</a>
+            wifims by <a href=" " rel="nofollow noreferrer noopener" target="_blank">Sabtech</a>
         </footer>
     </div>
 </body>
