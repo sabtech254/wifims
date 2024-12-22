@@ -1,6 +1,6 @@
 services:
-  nuxbill:
-    container_name: nuxbill
+  wifims:
+    container_name: wifims
     pull_policy: always
     build: ./
     restart: unless-stopped
@@ -16,8 +16,8 @@ services:
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: "12345678"
-      MYSQL_DATABASE: "nuxbill"
-      MYSQL_USER: "nuxbill"
+      MYSQL_DATABASE: "wifims"
+      MYSQL_USER: "wifims"
       MYSQL_PASSWORD: "12345678"
     ports:
       - "3306:3306"

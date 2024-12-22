@@ -56,7 +56,7 @@
 				<a href=\"step3.php\" class=\"btn btn-primary\">Continue to Install wifims</a><br><br>");
             } else {
                 echo ("<br/> $ltext <br/> Sorry. The requirements of wifims  is not available on your server.
-				Contact with us at Whatsapp <a href=\"https://t.me/phpnuxbill\">@phpnuxbill</a> with this code- $passed Or contact with your server administrator
+				Contact with us at Whatsapp <a href=\"https://t.me/wifims\">@wifims</a> with this code- $passed Or contact with your server administrator
 				<br><br>
 				<a href=\"#\" class=\"btn btn-primary disabled\">Correct The Problem To Continue</a>");
             }

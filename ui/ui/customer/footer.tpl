@@ -11,7 +11,7 @@
     </footer>
 {else}
     <footer class="main-footer">
-        PHPNuxBill by <a href="https://github.com/sabtech254/wifims" rel="nofollow noreferrer noopener"
+        wifims by <a href="https://github.com/sabtech254/wifims" rel="nofollow noreferrer noopener"
             target="_blank">iBNuX</a>, Theme by <a href="https://adminlte.io/" rel="nofollow noreferrer noopener"
             target="_blank">AdminLTE</a>
         <div class="pull-right">

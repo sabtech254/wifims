@@ -86,7 +86,7 @@ try {
                         <li>Don't forget to rename folder <b>pages_example</b> to <b>pages</b>.<br>
                             if it not yet renamed</li>
                         <li>Activate <a href="https://github.com/sabtech254/wifims/wiki/Cron-Jobs" target="_blank">Cronjob</a> for Expired and Reminder.</li>
-                        <li>Check <a href="https://github.com/sabtech254/wifims/wiki/How-It-Works---Cara-kerja" target="_blank">how PHPNuxbill Works</a></li>
+                        <li>Check <a href="https://github.com/sabtech254/wifims/wiki/How-It-Works---Cara-kerja" target="_blank">how wifims Works</a></li>
                         <li><a href="https://github.com/sabtech254/wifims/wiki#login-page-mikrotik" target="_blank">how to link Mikrotik Login to wifims</a></li>
                         <li>or use <a href="https://github.com/sabtech254/wifims-mikrotik-login-template" target="_blank">Mikrotik Login Template for wifims</a></li>
                     </ol>

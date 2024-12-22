@@ -11,7 +11,7 @@ class Dummy {
             'author' => 'ibnu maksum',
             'url' => [
                 'Github' => 'https://github.com/sabtech254/wifims/',
-                'Telegram' => 'https://t.me/phpnuxbill',
+                'Telegram' => 'https://t.me/wifims',
                 'Donate' => 'https://paypal.me/ibnux'
             ]
         ];

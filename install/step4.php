@@ -67,7 +67,7 @@ define("APP_URL", $protocol . $host . $baseDir);
 // Live, Dev, Demo
 $_app_stage = "Live";
 
-// Database PHPNuxBill
+// Database wifims
 $db_host	    = "' . $db_host . '";
 $db_user        = "' . $db_user . '";
 $db_pass	    = "' . $db_pass . '";
@@ -88,7 +88,7 @@ if($_app_stage!="Live"){
 	please create a file named - config.php with following contents- <br/>$input");
     fwrite($fh, $input);
     fclose($fh);
-    $sql = file_get_contents('phpnuxbill.sql');
+    $sql = file_get_contents('wifims.sql');
     $qr = $dbh->exec($sql);
     if (isset($_POST['radius']) && $_POST['radius'] == 'yes') {
         $sql = file_get_contents('radius.sql');
@@ -137,7 +137,7 @@ if($_app_stage!="Live"){
             } elseif ($cn == '2') {
             ?>
                 <p> MySQL Connection was successfull. An error occured while adding data on MySQL. Unsuccessfull
-                    Installation. Please refer manual installation in the website github.com/ibnux/phpnuxbill/wiki or Contact Telegram @ibnux  for
+                    Installation. Please refer manual installation in the website github.com/ibnux/wifims/wiki or Contact Telegram @ibnux  for
                     helping on installation</p>
             <?php
             } else {

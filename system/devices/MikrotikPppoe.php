@@ -17,11 +17,11 @@ class MikrotikPppoe
     {
         return [
             'title' => 'Mikrotik PPPOE',
-            'description' => 'To handle connection between PHPNuxBill with Mikrotik PPPOE',
+            'description' => 'To handle connection between wifims with Mikrotik PPPOE',
             'author' => 'ibnux',
             'url' => [
                 'Github' => 'https://github.com/sabtech254/wifims/',
-                'Telegram' => 'https://t.me/phpnuxbill',
+                'Telegram' => 'https://t.me/wifims',
                 'Donate' => 'https://paypal.me/ibnux'
             ]
         ];

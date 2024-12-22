@@ -1,8 +1,8 @@
 {
     "name": "sabtech254/wifims",
     "type": "template",
-    "description": "PHPNuxBill a Hotspot Billing Software.",
-    "keywords": ["template","PHPMixBill","PHPnuxBill","Mikrotik","Hotspot","Billing"],
+    "description": "wifims a Hotspot Billing Software.",
+    "keywords": ["template","PHPMixBill","wifims","Mikrotik","Hotspot","Billing"],
     "homepage": "https://github.com/sabtech254/wifims",
     "license": "MIT",
     "authors": [

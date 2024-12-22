@@ -61,8 +61,8 @@ switch ($action) {
                     Mikrotik::addHotspotPlan($client, $plan['name_plan'], $plan['shared_users'], $rate);
                     $log .= "DONE : $plan[name_plan], $plan[shared_users], $rate<br>";
                     if (!empty($plan['pool_expired'])) {
-                        Mikrotik::setHotspotExpiredPlan($client, 'EXPIRED NUXBILL ' . $plan['pool_expired'], $plan['pool_expired']);
-                        $log .= "DONE Expired : EXPIRED NUXBILL $plan[pool_expired]<br>";
+                        Mikrotik::setHotspotExpiredPlan($client, 'EXPIRED wifims ' . $plan['pool_expired'], $plan['pool_expired']);
+                        $log .= "DONE Expired : EXPIRED wifims $plan[pool_expired]<br>";
                     }
                 }
             }
@@ -106,8 +106,8 @@ switch ($action) {
                     Mikrotik::addPpoePlan($client, $plan['name_plan'], $plan['pool'], $rate);
                     $log .= "DONE : $plan[name_plan], $plan[pool], $rate<br>";
                     if (!empty($plan['pool_expired'])) {
-                        Mikrotik::setPpoePlan($client, 'EXPIRED NUXBILL ' . $plan['pool_expired'], $plan['pool_expired'], '512K/512K');
-                        $log .= "DONE Expired : EXPIRED NUXBILL $plan[pool_expired]<br>";
+                        Mikrotik::setPpoePlan($client, 'EXPIRED wifims ' . $plan['pool_expired'], $plan['pool_expired'], '512K/512K');
+                        $log .= "DONE Expired : EXPIRED wifims $plan[pool_expired]<br>";
                     }
                 }
             }
@@ -281,7 +281,7 @@ switch ($action) {
                 $client = Mikrotik::getClient($mikrotik['ip_address'], $mikrotik['username'], $mikrotik['password']);
                 Mikrotik::addHotspotPlan($client, $name, $sharedusers, $rate);
                 if (!empty($pool_expired)) {
-                    Mikrotik::setHotspotExpiredPlan($client, 'EXPIRED NUXBILL ' . $pool_expired, $pool_expired);
+                    Mikrotik::setHotspotExpiredPlan($client, 'EXPIRED wifims ' . $pool_expired, $pool_expired);
                 }
             }
 
@@ -357,7 +357,7 @@ switch ($action) {
                 $client = Mikrotik::getClient($mikrotik['ip_address'], $mikrotik['username'], $mikrotik['password']);
                 Mikrotik::setHotspotPlan($client, $name, $sharedusers, $rate);
                 if (!empty($pool_expired)) {
-                    Mikrotik::setHotspotExpiredPlan($client, 'EXPIRED NUXBILL ' . $pool_expired, $pool_expired);
+                    Mikrotik::setHotspotExpiredPlan($client, 'EXPIRED wifims ' . $pool_expired, $pool_expired);
                 }
             }
             $d->name_plan = $name;
@@ -546,7 +546,7 @@ switch ($action) {
                 $client = Mikrotik::getClient($mikrotik['ip_address'], $mikrotik['username'], $mikrotik['password']);
                 Mikrotik::addPpoePlan($client, $name, $pool, $rate);
                 if (!empty($pool_expired)) {
-                    Mikrotik::setPpoePlan($client, 'EXPIRED NUXBILL ' . $pool_expired, $pool_expired, '512K/512K');
+                    Mikrotik::setPpoePlan($client, 'EXPIRED wifims ' . $pool_expired, $pool_expired, '512K/512K');
                 }
             }
 
@@ -615,7 +615,7 @@ switch ($action) {
                 $client = Mikrotik::getClient($mikrotik['ip_address'], $mikrotik['username'], $mikrotik['password']);
                 Mikrotik::setPpoePlan($client, $name, $pool, $rate);
                 if (!empty($pool_expired)) {
-                    Mikrotik::setPpoePlan($client, 'EXPIRED NUXBILL ' . $pool_expired, $pool_expired, '512K/512K');
+                    Mikrotik::setPpoePlan($client, 'EXPIRED wifims ' . $pool_expired, $pool_expired, '512K/512K');
                 }
             }
             $d->name_plan = $name;

@@ -107,7 +107,7 @@ switch ($action) {
             if ($items && count($items['results']) > 0) {
                 foreach ($items['results'] as $item) {
                     $name = strtolower($item['item']['name']);
-                    if (strpos($name, 'phpnuxbill') !== false) {
+                    if (strpos($name, 'wifims') !== false) {
                         $plugins[] = $item;
                     }
                 }

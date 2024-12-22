@@ -18,11 +18,11 @@ class MikrotikHotspot
     {
         return [
             'title' => 'Mikrotik Hotspot',
-            'description' => 'To handle connection between PHPNuxBill with Mikrotik Hotspot',
+            'description' => 'To handle connection between wifims with Mikrotik Hotspot',
             'author' => 'ibnux',
             'url' => [
                 'Github' => 'https://github.com/sabtech254/wifims/',
-                'Telegram' => 'https://t.me/phpnuxbill',
+                'Telegram' => 'https://t.me/wifims',
                 'Donate' => 'https://paypal.me/ibnux'
             ]
         ];

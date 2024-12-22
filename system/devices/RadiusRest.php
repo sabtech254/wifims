@@ -11,7 +11,7 @@ class RadiusRest {
             'author' => 'ibnu maksum',
             'url' => [
                 'Wiki Tutorial' => 'https://github.com/sabtech254/wifims/wiki/FreeRadius-Rest',
-                'Telegram' => 'https://t.me/phpnuxbill',
+                'Telegram' => 'https://t.me/wifims',
                 'Donate' => 'https://paypal.me/ibnux'
             ]
         ];
