@@ -6,7 +6,7 @@
  **/
 
 _admin();
-$ui->assign('_title', Lang::T('Dashboard'));
+//$ui->assign('_title', Lang::T('Dashboard'));
 $ui->assign('_admin', $admin);
 
 if (isset($_GET['refresh'])) {
