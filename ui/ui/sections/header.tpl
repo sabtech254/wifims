@@ -41,7 +41,7 @@
         }
 
         .modern-skin-dark .main-header .navbar {
-            background: rgb(28 36 52);
+            background-color: #394860;
         }
 
         .modern-skin-dark .main-sidebar .sidebar {
@@ -312,10 +312,9 @@
             padding: 10px 20px;
             border-radius: 50px;
             border: 1px solid #2e298e;
-            background-color: #ecf0f5;
             color: white;
             cursor: pointer;
-            width: 50%;
+            width: 10%;
             height: 50%;
         }
 
