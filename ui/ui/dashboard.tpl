@@ -521,7 +521,7 @@
                 const updates = {
     '.income-today .amount': data.income_today,
     '.income-month .amount': data.income_month,
-    '.users-stats .amount': `${data.active_users}/${data.expired_users}`, // Correctly uses backticks
+    '.users-stats .amount': `${data.active_users}, // Correctly uses backticks
     '.online-users .amount': data.online_users,
     '.hotspot-users .amount': data.hotspot_users,
     '.total-online .amount': data.total_online,
