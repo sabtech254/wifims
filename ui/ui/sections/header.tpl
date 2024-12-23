@@ -73,7 +73,7 @@
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li.active a {
-            background-color: #2e298e;
+            background-color: #ecf0f5;
             border-radius: 5px;
             margin: 10px;
 
@@ -313,7 +313,7 @@
             padding: 10px 20px;
             border-radius: 50px;
             border: 1px solid #2e298e;
-            background-color: #2e298e;
+            background-color: #ecf0f5;
             color: white;
             cursor: pointer;
             width: 50%;
@@ -628,7 +628,7 @@
         }
 
         .dark-mode .main-sidebar .sidebar .sidebar-menu li.active a {
-            background-color: #2e298e;
+            background-color: #ecf0f5;
         }
 
         .dark-mode .content,

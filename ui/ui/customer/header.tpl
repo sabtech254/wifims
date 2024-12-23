@@ -67,7 +67,7 @@
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li.active a {
-            background-color: #2e298e;
+            background-color: #ecf0f5;
             border-radius: 5px;
             margin: 10px;
 
@@ -373,7 +373,7 @@
         }
 
         .dark-mode .main-sidebar .sidebar .sidebar-menu li.active a {
-            background-color: #2e298e;
+            background-color: #ecf0f5;
         }
 
         .dark-mode .content,
