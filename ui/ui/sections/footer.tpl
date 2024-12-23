@@ -4,7 +4,7 @@
             <div class="pull-right" id="version" onclick="location.href = '{$_url}community#latestVersion';"></div>
             Mikrotik API by <a href="#" rel="nofollow noreferrer noopener"
                 target="_blank">wifims</a>, Developed by <a href="#/" rel="nofollow noreferrer noopener"
-                target="_blank">Shabran</a>
+                target="_blank">sabtech254</a>
         </footer>
 </div>
 <script src="ui/ui/scripts/jquery.min.js"></script>

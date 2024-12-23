@@ -2,7 +2,7 @@
 
 <div class="row mb-3">
     <div class="col-md-12">
-        <div class="panel panel-default">
+        <div class="responsive-box">
             <div class="panel-body">
                 <div class="form-group mb-0">
                     <label for="router_filter">{Lang::T('Filter by Router')}:</label>
