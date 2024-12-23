@@ -191,7 +191,7 @@
 
 </head>
 
-<body class="hold-transition modern-skin-gray sidebar-mini {if $_kolaps}sidebar-collapse{/if}">
+<body class="hold-transition modern-skin-dark sidebar-mini {if $_kolaps}sidebar-collapse{/if}">
     <div class="wrapper">
         <header class="main-header">
             <a href="{$_url}dashboard" class="logo">
