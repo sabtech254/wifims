@@ -73,7 +73,6 @@
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li.active a {
-            background-color: #ecf0f5;
             border-radius: 5px;
             margin: 10px;
 
@@ -85,7 +84,7 @@
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li .treeview-menu li.active a {
             background-color: transparent !important;
-            color: rgb(9, 88, 247);
+            color: rgb(248, 250, 252);
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li .treeview-menu li>a {
