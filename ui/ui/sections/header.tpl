@@ -22,7 +22,7 @@
 	
 	   <!-- Google tag (gtag.js) -->
     {literal}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKTVFMD7HE"></script>
+  //  <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
