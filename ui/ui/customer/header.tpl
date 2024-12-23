@@ -30,7 +30,7 @@
         }
 
         .modern-skin-dark .main-header .logo {
-            background-color: rgb(28 36 52);
+            background-color: #394860;
             color: #fff;
         }
 
@@ -39,12 +39,12 @@
         }
 
         .modern-skin-dark .main-sidebar .sidebar {
-            background-color: rgb(28 36 52);
+            background-color: #394860;
             bottom: 0;
         }
 
         .modern-skin-dark .main-sidebar {
-            background-color: rgb(28 36 52);
+            background-color: #394860;
             box-shadow: 0 0 5px rgba(0, 0, 0, .3);
         }
 
@@ -52,12 +52,12 @@
         .modern-skin-dark .main-header .navbar>a:active,
         .modern-skin-dark .main-header .navbar>a:visited,
         .modern-skin-dark .main-header .navbar>a:hover {
-            background-color: rgb(28 36 52);
+            background-color: #394860;
         }
 
         .sidebar-menu li>a {
             position: relative;
-            background-color: rgb(28 36 52);
+            background-color: #394860;
         }
 
         .sidebar-menu li:focus,
@@ -74,7 +74,7 @@
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu {
-            background-color: rgb(28 36 52);
+            background-color: #394860;
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li .treeview-menu li.active a {
