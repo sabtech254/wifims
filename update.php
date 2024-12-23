@@ -1,9 +1,9 @@
 <?php
  
 /**
- * PHP Mikrotik Billing (https://github.com/sabtech25401/SpeedRadius_Advanced/)
+ * PHP Mikrotik Billing (https://github.com/sabtech25401/)
  *
- * This script is for updating SpeedRadius
+ * This script is for updating 
  **/
 session_start();
 include "config.php";
@@ -230,7 +230,7 @@ function deleteFolder($path)
     <div class="container">
         <section class="content-header">
             <h1 class="text-center">
-                Update SpeedRadius
+                Update System
             </h1>
         </section>
 
@@ -245,7 +245,7 @@ function deleteFolder($path)
                     <?php } ?>
                     <?php if ($continue || $step == 5) { ?>
                         <?php if ($step == 1) { ?>
-                            <div class="panel panel-primary">
+                            <div class="panel panel-success">
                                 <div class="panel-heading">Step 1</div>
                                 <div class="panel-body">
                                     Downloading update<br>
@@ -253,7 +253,7 @@ function deleteFolder($path)
                                 </div>
                             </div>
                         <?php } else if ($step == 2) { ?>
-                            <div class="panel panel-primary">
+                            <div class="panel panel-success">
                                 <div class="panel-heading">Step 2</div>
                                 <div class="panel-body">
                                     extracting<br>
@@ -261,7 +261,7 @@ function deleteFolder($path)
                                 </div>
                             </div>
                         <?php } else if ($step == 3) { ?>
-                            <div class="panel panel-primary">
+                            <div class="panel panel-success">
                                 <div class="panel-heading">Step 3</div>
                                 <div class="panel-body">
                                     Installing<br>
@@ -269,7 +269,7 @@ function deleteFolder($path)
                                 </div>
                             </div>
                         <?php } else if ($step == 4) { ?>
-                            <div class="panel panel-primary">
+                            <div class="panel panel-success">
                                 <div class="panel-heading">Step 4</div>
                                 <div class="panel-body">
                                     Updating database...
@@ -279,7 +279,7 @@ function deleteFolder($path)
                             <div class="panel panel-success">
                                 <div class="panel-heading">Update Finished</div>
                                 <div class="panel-body">
-                                    SpeedRadius has been updated to Version <b><?= $version ?></b>
+                                   System has been updated to Version <b><?= $version ?></b>
                                 </div>
                             </div>
                             <meta http-equiv="refresh" content="5; ./?_route=dashboard">
