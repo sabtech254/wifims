@@ -312,7 +312,7 @@
             padding: 10px 20px;
             border-radius: 50px;
             border: 1px solid #2e298e;
-            color: white;
+            color: #2222;
             cursor: pointer;
             width: 10%;
             height: 50%;
