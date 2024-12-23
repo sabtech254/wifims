@@ -85,7 +85,7 @@
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li .treeview-menu li.active a {
             background-color: transparent !important;
-            color: rgb(84, 131, 227);
+            color: rgb(9, 88, 247);
         }
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li .treeview-menu li>a {
@@ -95,7 +95,7 @@
 
         .modern-skin-dark .main-sidebar .sidebar .sidebar-menu li .treeview-menu {
             padding-left: 0;
-            border-left: 3px solid #10d435;
+            border-left: 3px solidrgb(51, 69, 231);
         }
 
         .content-header {
