@@ -24,7 +24,6 @@
                                 <option value="DTB" {if $_c['Stkbankname'] == 'Dtb'}selected{/if}>Diamond Trust Bank (DTB)</option>
                                 <option value="NCBA" {if $_c['Stkbankname'] == 'NCBA'}selected{/if}>NCBA Bank</option>
                                 <option value="GAB" {if $_c['Stkbankname'] == 'GAB'}selected{/if}>GAB Bank</option> <!-- Added GAB option -->
-                                <option value="Speedcom" {if $_c['Stkbankname'] == 'Speedcom'}selected{/if}>Speedcom</option> <!-- Added Speedcom option -->
                                 <option value="StanChart" {if $_c['Stkbankname'] == 'StanChart'}selected{/if}>Standard Chartered Bank</option> <!-- Added StanChart -->
                                 <option value="IM" {if $_c['Stkbankname'] == 'IM'}selected{/if}>I&M Bank Kenya</option> <!-- Added I&M Bank -->
                                 <option value="NCBALoop" {if $_c['Stkbankname'] == 'NCBALoop'}selected{/if}>NCBA Loop Bank</option> <!-- Added NCBA Loop -->
