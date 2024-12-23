@@ -494,76 +494,46 @@
     function filterDashboard() {
         var routerId = $('#router_filter').val();
         console.log('Filtering for router:', routerId);
-
-        if (!routerId) {
-            console.warn('Router ID is empty, skipping request.');
-            return;
-        }
-
-        // Abort previous requests if any to prevent unnecessary resource usage
-        if (filterDashboard.currentRequest) {
-            filterDashboard.currentRequest.abort();
-        }
-
-        // Cache the AJAX request to allow aborting
-        filterDashboard.currentRequest = $.ajax({
-            url: '/dashboard/filter', // Use the relative path for efficiency
+        
+        $.ajax({
+            url: '{$_url}dashboard/filter',
             type: 'POST',
             data: { router_id: routerId },
             dataType: 'json',
-            success: function (data) {
-                if (!data) {
-                    console.warn('No data received, skipping updates.');
-                    return;
-                }
-
-                // Use batch DOM updates for better performance
-                const updates = {
-    '.income-today .amount': data.income_today,
-    '.income-month .amount': data.income_month,
-    '.online-users .amount': data.online_users,
-    '.hotspot-users .amount': data.hotspot_users,
-    '.total-online .amount': data.total_online,
-};
-
-
-                $.each(updates, function (selector, value) {
-                    const $element = $(selector);
-                    if ($element.text() !== value) {
-                        $element.text(value); // Update only if the value is different
-                    }
-                });
+            success: function(data) {
+                // Update income today
+                $('.income-today .amount').text(data.income_today);
+                
+                // Update income this month
+                $('.income-month .amount').text(data.income_month);
+                
+                // Update users stats
+                $('.users-stats .amount').text(data.active_users + '/' + data.expired_users);
+                
+                // Update online PPPoE users
+                $('.online-users .amount').text(data.online_users);
+                
+                // Update hotspot users
+                $('.hotspot-users .amount').text(data.hotspot_users);
+                
+                // Update total online users
+                $('.total-online .amount').text(data.total_online);
             },
-            error: function (xhr, status, error) {
-                if (status !== 'abort') {
-                    console.error('Error filtering dashboard:', error);
-                }
-            },
-            complete: function () {
-                filterDashboard.currentRequest = null; // Reset current request
-            },
+            error: function(xhr, status, error) {
+                console.error('Error filtering dashboard:', error);
+            }
         });
     }
-
-    $(document).ready(function () {
-        // Cache original values to restore if needed
-        $('.amount').each(function () {
-            $(this).data('original-value', $(this).text());
+    
+    // Store original values when page loads
+    $(document).ready(function() {
+        $('.amount').each(function() {
+            var $this = $(this);
+            $this.data('original-value', $this.html());
         });
-
-        // Debounce the filterDashboard function to reduce frequent calls
-        const debounce = (func, delay) => {
-            let timeout;
-            return function (...args) {
-                clearTimeout(timeout);
-                timeout = setTimeout(() => func.apply(this, args), delay);
-            };
-        };
-
-        const debouncedFilterDashboard = debounce(filterDashboard, 300);
-
-        // Attach debounced change event to router filter
-        $('#router_filter').on('change', debouncedFilterDashboard);
+        
+        // Add change event listener to router filter
+        $('#router_filter').on('change', filterDashboard);
     });
 </script>
 
