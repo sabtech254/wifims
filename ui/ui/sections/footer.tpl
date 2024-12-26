@@ -2,7 +2,7 @@
         </div>
         <footer class="main-footer">
             <div class="pull-right" id="version" onclick="location.href = '{$_url}community#latestVersion';"></div>
-            Mikrotik API by <a href="#" rel="nofollow noreferrer noopener"
+             <a href="#" rel="nofollow noreferrer noopener"
                 target="_blank">wifims</a>, Developed by <a href="#/" rel="nofollow noreferrer noopener"
                 target="_blank">sabtech254</a>
         </footer>
