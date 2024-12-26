@@ -1167,25 +1167,13 @@
                     <ul class="nav navbar-nav">
                         <div class="wrap">
                             <div class="">
-                                <button id="openSearch" class="search"><i class="fa fa-search x2"></i></button>
-                            </div>
-                        </div>
-
-                        <div id="searchOverlay" class="search-overlay">
-                            <div class="search-container">
-                                <input type="text" id="searchTerm" class="searchTerm"
-                                    placeholder="{Lang::T('Search Users')}" autocomplete="off">
-                                <div id="searchResults" class="search-results">
-                                    <!-- Search results will be displayed here -->
-                                </div>
-                                <button type="button" id="closeSearch" class="cancelButton">{Lang::T('Cancel')}</button>
-                            </div>
-                        </div>
-                        <li>
+                                <li>
                             <a class="toggle-container" href="#">
                                 <i class="toggle-icon" id="toggleIcon">🌞</i>
                             </a>
                         </li>
+                            </div>
+                        </div>        
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="https://robohash.org/{$_admin['id']}?set=set3&size=100x100&bgset=bg1"
