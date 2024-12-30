@@ -1397,35 +1397,7 @@
                             </li>
                         {/if}
                         {$_MENU_AFTER_RADIUS}
-                        <li class="{if $_system_menu eq 'pages'}active{/if} treeview">
-                            <a href="#">
-                                <i class="ion ion-document"></i> <span>{Lang::T("Static Pages")}</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>
-                            </a>
-                            <ul class="treeview-menu">
-                                <li {if $_routes[1] eq 'Order_Voucher' }class="active" {/if}><a
-                                        href="{$_url}pages/Order_Voucher">{Lang::T('Order Voucher')}</a></li>
-                                <li {if $_routes[1] eq 'Voucher' }class="active" {/if}><a
-                                        href="{$_url}pages/Voucher">{Lang::T('Theme Voucher')}</a></li>
-                                <li {if $_routes[1] eq 'Announcement' }class="active" {/if}><a
-                                        href="{$_url}pages/Announcement">{Lang::T('Announcement')}</a></li>
-                                <li {if $_routes[1] eq 'Announcement_Customer' }class="active" {/if}><a
-                                        href="{$_url}pages/Announcement_Customer">{Lang::T('Customer Announcement')}</a>
-                                </li>
-                                <li {if $_routes[1] eq 'Registration_Info' }class="active" {/if}><a
-                                        href="{$_url}pages/Registration_Info">{Lang::T('Registration Info')}</a></li>
-                                <li {if $_routes[1] eq 'Payment_Info' }class="active" {/if}><a
-                                        href="{$_url}pages/Payment_Info">{Lang::T('Payment Info')}</a></li>
-                                <li {if $_routes[1] eq 'Privacy_Policy' }class="active" {/if}><a
-                                        href="{$_url}pages/Privacy_Policy">{Lang::T('Privacy Policy')}</a></li>
-                                <li {if $_routes[1] eq 'Terms_and_Conditions' }class="active" {/if}><a
-                                        href="{$_url}pages/Terms_and_Conditions">{Lang::T('Terms and Conditions')}</a></li>
-                                {$_MENU_PAGES}
-                            </ul>
-                        </li>
-                    {/if}
+
                     {$_MENU_AFTER_PAGES}
                     <li
                         class="{if $_system_menu eq 'settings' || $_system_menu eq 'paymentgateway' }active{/if} treeview">
