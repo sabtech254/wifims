@@ -1519,6 +1519,8 @@
             <section class="content">
                 {if isset($notify)}
                     <script>
+
+                    
                         // Display SweetAlert toast notification
                         Swal.fire({
                             icon: '{if $notify_t == "s"}success{else}error{/if}',
