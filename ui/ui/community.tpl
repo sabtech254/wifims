@@ -11,16 +11,16 @@
                 <h3 class="box-title">wifims</h3>
             </div>
             <div class="box-body">
-                <b>wifims</b> is a billing Hotspot ,Static IP and PPPOE for Mikrotik using PHP and Mikrotik API to comunicate with router. If you get more profit with this application, please donate us.<br>Watch project <a href="#" target="_blank">in here</a>
+                <b>Update the System</b> <br>
             </div>
             <div class="box-footer" id="currentVersion">ver : <b><?= $version ?></b> </div>
             <div class="box-footer" id="latestVersion">ver : <b><?= $version ?></b> </div>
             <div class="box-footer">
 
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
-                    <a href="/update.php?step=4" class="btn btn-success btn-sm btn-block">Update Database</a>
-                    <a href="./update.php" target="_blank"
-                        class="btn btn-warning btn-sm btn-block text-black">Install Latest Version</a>
+                    <a href="/update.php?step=4" class="btn btn- btn-sm-warning btn-block">Update Database only</a>
+                    <a href="./update.php" 
+                        class="btn btn-success btn-sm btn-block text-black">Install Latest Version</a>
                 </div>
                 
             <div class="box-footer">
