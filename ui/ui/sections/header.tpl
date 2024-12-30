@@ -1492,7 +1492,7 @@
                         <li {if $_system_menu eq 'community' }class="active" {/if}>
                             <a href="{$_url}community">
                                 <i class="ion ion-chatboxes"></i>
-                                <span class="text">Support</span>
+                                <span class="text">Update</span>
                             </a>
                         </li>
                     {/if}
